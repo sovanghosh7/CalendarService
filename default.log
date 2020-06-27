@@ -1,0 +1,1968 @@
+INFO 31658 2020-04-05 02:51:39,703 autoreload File name: [autoreload.py] Function name: [run_with_reloader] Line No: [597] Watching for file changes with StatReloader
+INFO 31658 2020-04-05 02:52:38,100 autoreload File name: [autoreload.py] Function name: [trigger_reload] Line No: [217] /home/sovan/git/CalenderService/calenderservice/settings/production.py changed, reloading.
+INFO 31758 2020-04-05 02:52:38,573 autoreload File name: [autoreload.py] Function name: [run_with_reloader] Line No: [597] Watching for file changes with StatReloader
+INFO 31758 2020-04-05 02:52:45,025 autoreload File name: [autoreload.py] Function name: [trigger_reload] Line No: [217] /home/sovan/git/CalenderService/calenderservice/settings/production.py changed, reloading.
+INFO 31819 2020-04-05 02:52:45,479 autoreload File name: [autoreload.py] Function name: [run_with_reloader] Line No: [597] Watching for file changes with StatReloader
+INFO 31819 2020-04-05 02:53:00,213 autoreload File name: [autoreload.py] Function name: [trigger_reload] Line No: [217] /home/sovan/git/CalenderService/calenderservice/settings/local.py changed, reloading.
+INFO 31877 2020-04-05 02:53:00,697 autoreload File name: [autoreload.py] Function name: [run_with_reloader] Line No: [597] Watching for file changes with StatReloader
+INFO 31877 2020-04-05 02:54:06,555 autoreload File name: [autoreload.py] Function name: [trigger_reload] Line No: [217] /home/sovan/git/CalenderService/logger_settings.py changed, reloading.
+ERROR 32091 2020-04-05 02:55:10,714 log File name: [log.py] Function name: [log_response] Line No: [228] Internal Server Error: /api/event/
+Traceback (most recent call last):
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/sovan/git/CalenderService/calenderapp/views.py", line 16, in create
+    raise Exception
+Exception
+ERROR 3449 2020-04-05 03:18:01,775 log File name: [log.py] Function name: [log_response] Line No: [228] Internal Server Error: /api/event/
+Traceback (most recent call last):
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/sovan/git/CalenderService/calenderapp/views.py", line 16, in create
+    raise Exception
+Exception
+ERROR 3449 2020-04-05 03:19:07,227 log File name: [log.py] Function name: [log_response] Line No: [228] Internal Server Error: /api/event/
+Traceback (most recent call last):
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/sovan/git/CalenderService/calenderapp/views.py", line 16, in create
+    raise Exception
+Exception
+WARNING 8458 2020-04-05 13:13:00,052 log File name: [log.py] Function name: [log_response] Line No: [228] Bad Request: /api/event/
+WARNING 14322 2020-04-05 13:18:54,164 log File name: [log.py] Function name: [log_response] Line No: [228] Bad Request: /api/event/
+WARNING 21795 2020-04-05 14:40:25,082 log File name: [log.py] Function name: [log_response] Line No: [228] Not Found: /favicon.ico
+ERROR 26643 2020-04-05 15:24:29,807 log File name: [log.py] Function name: [log_response] Line No: [228] Internal Server Error: /api/event/
+Traceback (most recent call last):
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/sovan/git/CalenderService/calenderapp/views.py", line 33, in list
+    return self.get_paginated_response(serializer.data)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/serializers.py", line 760, in data
+    ret = super().data
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/serializers.py", line 260, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/serializers.py", line 678, in to_representation
+    self.child.to_representation(item) for item in iterable
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/serializers.py", line 678, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/serializers.py", line 529, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/fields.py", line 1905, in to_representation
+    return method(value)
+  File "/home/sovan/git/CalenderService/calenderapp/serializers.py", line 19, in get_organiser
+    return e_user.email
+AttributeError: 'EventUser' object has no attribute 'email'
+ERROR 32449 2020-04-05 16:18:32,762 log File name: [log.py] Function name: [log_response] Line No: [228] Internal Server Error: /api/event/
+Traceback (most recent call last):
+  File "/home/sovan/git/CalenderService/calenderapp/views.py", line 33, in create
+    data.get('guest_users'), request.user.id)
+  File "/home/sovan/git/CalenderService/calenderapp/models.py", line 63, in create_event
+    status=Event.STATUS_CHOICES.active)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/db/models/query.py", line 422, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/home/sovan/git/CalenderService/calenderapp/models.py", line 22, in save
+    self.full_clean()
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/db/models/base.py", line 1188, in full_clean
+    self.clean()
+  File "/home/sovan/git/CalenderService/calenderapp/models.py", line 40, in clean
+    if self.time_slot < timezone.now():
+TypeError: can't compare offset-naive and offset-aware datetimes
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/sovan/git/CalenderService/calenderapp/views.py", line 38, in create
+    return Response(e.message_dict, status=status.HTTP_200_OK)
+AttributeError: 'TypeError' object has no attribute 'message_dict'
+ERROR 32449 2020-04-05 16:19:52,739 log File name: [log.py] Function name: [log_response] Line No: [228] Internal Server Error: /api/event/
+Traceback (most recent call last):
+  File "/home/sovan/git/CalenderService/calenderapp/views.py", line 33, in create
+    data.get('guest_users'), request.user.id)
+  File "/home/sovan/git/CalenderService/calenderapp/models.py", line 63, in create_event
+    status=Event.STATUS_CHOICES.active)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/db/models/query.py", line 422, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/home/sovan/git/CalenderService/calenderapp/models.py", line 22, in save
+    self.full_clean()
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/db/models/base.py", line 1188, in full_clean
+    self.clean()
+  File "/home/sovan/git/CalenderService/calenderapp/models.py", line 40, in clean
+    if self.time_slot < timezone.now():
+TypeError: can't compare offset-naive and offset-aware datetimes
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/sovan/git/CalenderService/calenderapp/views.py", line 38, in create
+    return Response(e.message_dict, status=status.HTTP_200_OK)
+AttributeError: 'TypeError' object has no attribute 'message_dict'
+ERROR 32759 2020-04-05 16:21:25,351 log File name: [log.py] Function name: [log_response] Line No: [228] Internal Server Error: /api/event/
+Traceback (most recent call last):
+  File "/home/sovan/git/CalenderService/calenderapp/views.py", line 33, in create
+    data.get('guest_users'), request.user.id)
+  File "/home/sovan/git/CalenderService/calenderapp/models.py", line 63, in create_event
+    status=Event.STATUS_CHOICES.active)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/db/models/query.py", line 422, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/home/sovan/git/CalenderService/calenderapp/models.py", line 22, in save
+    self.full_clean()
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/db/models/base.py", line 1188, in full_clean
+    self.clean()
+  File "/home/sovan/git/CalenderService/calenderapp/models.py", line 40, in clean
+    if self.time_slot < timezone.now():
+TypeError: can't compare offset-naive and offset-aware datetimes
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/sovan/git/CalenderService/calenderapp/views.py", line 38, in create
+    return Response(e.message_dict, status=status.HTTP_200_OK)
+AttributeError: 'TypeError' object has no attribute 'message_dict'
+WARNING 4363 2020-04-05 17:10:33,666 log File name: [log.py] Function name: [log_response] Line No: [228] Unauthorized: /api/event/
+ERROR 4578 2020-04-05 17:23:12,163 log File name: [log.py] Function name: [log_response] Line No: [228] Internal Server Error: /api/event/
+Traceback (most recent call last):
+  File "/home/sovan/git/CalenderService/calenderapp/views.py", line 33, in create
+    data.get('guest_users'), request.user.id)
+  File "/home/sovan/git/CalenderService/calenderapp/models.py", line 63, in create_event
+    status=Event.STATUS_CHOICES.active)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/db/models/query.py", line 422, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/home/sovan/git/CalenderService/calenderapp/models.py", line 22, in save
+    self.full_clean()
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/db/models/base.py", line 1188, in full_clean
+    self.clean()
+  File "/home/sovan/git/CalenderService/calenderapp/models.py", line 40, in clean
+    if self.time_slot < timezone.now():
+TypeError: can't compare offset-naive and offset-aware datetimes
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/sovan/git/CalenderService/calenderapp/views.py", line 38, in create
+    return Response(e.message_dict, status=status.HTTP_200_OK)
+AttributeError: 'TypeError' object has no attribute 'message_dict'
+ERROR 12699 2020-04-05 19:44:36,308 log File name: [log.py] Function name: [log_response] Line No: [228] Internal Server Error: /api/event/
+Traceback (most recent call last):
+  File "/home/sovan/git/CalenderService/calenderapp/views.py", line 33, in create
+    data.get('guest_users'), request.user.id)
+  File "/home/sovan/git/CalenderService/calenderapp/models.py", line 63, in create_event
+    status=Event.STATUS_CHOICES.active)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/db/models/query.py", line 422, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/home/sovan/git/CalenderService/calenderapp/models.py", line 22, in save
+    self.full_clean()
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/db/models/base.py", line 1188, in full_clean
+    self.clean()
+  File "/home/sovan/git/CalenderService/calenderapp/models.py", line 40, in clean
+    if self.time_slot < timezone.now():
+TypeError: can't compare offset-naive and offset-aware datetimes
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/sovan/git/CalenderService/calenderapp/views.py", line 38, in create
+    return Response(e.message_dict, status=status.HTTP_200_OK)
+AttributeError: 'TypeError' object has no attribute 'message_dict'
+ERROR 12699 2020-04-05 19:44:51,064 log File name: [log.py] Function name: [log_response] Line No: [228] Internal Server Error: /api/event/
+Traceback (most recent call last):
+  File "/home/sovan/git/CalenderService/calenderapp/views.py", line 33, in create
+    data.get('guest_users'), request.user.id)
+  File "/home/sovan/git/CalenderService/calenderapp/models.py", line 63, in create_event
+    status=Event.STATUS_CHOICES.active)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/db/models/query.py", line 422, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/home/sovan/git/CalenderService/calenderapp/models.py", line 22, in save
+    self.full_clean()
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/db/models/base.py", line 1188, in full_clean
+    self.clean()
+  File "/home/sovan/git/CalenderService/calenderapp/models.py", line 40, in clean
+    if self.time_slot < timezone.now():
+TypeError: can't compare offset-naive and offset-aware datetimes
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/sovan/git/CalenderService/calenderapp/views.py", line 38, in create
+    return Response(e.message_dict, status=status.HTTP_200_OK)
+AttributeError: 'TypeError' object has no attribute 'message_dict'
+ERROR 12699 2020-04-05 19:45:06,420 log File name: [log.py] Function name: [log_response] Line No: [228] Internal Server Error: /api/event/
+Traceback (most recent call last):
+  File "/home/sovan/git/CalenderService/calenderapp/views.py", line 33, in create
+    data.get('guest_users'), request.user.id)
+  File "/home/sovan/git/CalenderService/calenderapp/models.py", line 63, in create_event
+    status=Event.STATUS_CHOICES.active)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/db/models/query.py", line 422, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/home/sovan/git/CalenderService/calenderapp/models.py", line 22, in save
+    self.full_clean()
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/db/models/base.py", line 1188, in full_clean
+    self.clean()
+  File "/home/sovan/git/CalenderService/calenderapp/models.py", line 40, in clean
+    if self.time_slot < timezone.now():
+TypeError: can't compare offset-naive and offset-aware datetimes
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/sovan/git/CalenderService/calenderapp/views.py", line 38, in create
+    return Response(e.message_dict, status=status.HTTP_200_OK)
+AttributeError: 'TypeError' object has no attribute 'message_dict'
+ERROR 15282 2020-04-05 20:06:23,812 log File name: [log.py] Function name: [log_response] Line No: [228] Internal Server Error: /api/event/
+Traceback (most recent call last):
+  File "/home/sovan/git/CalenderService/calenderapp/views.py", line 33, in create
+    data.get('guest_users'), request.user.id)
+  File "/home/sovan/git/CalenderService/calenderapp/models.py", line 71, in create_event
+    status=Event.STATUS_CHOICES.active)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/db/models/query.py", line 422, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/home/sovan/git/CalenderService/calenderapp/models.py", line 25, in save
+    self.full_clean()
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/db/models/base.py", line 1188, in full_clean
+    self.clean()
+  File "/home/sovan/git/CalenderService/calenderapp/models.py", line 48, in clean
+    if self.time_slot < now():
+TypeError: can't compare offset-naive and offset-aware datetimes
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/sovan/git/CalenderService/calenderapp/views.py", line 38, in create
+    return Response(e.message_dict, status=status.HTTP_200_OK)
+AttributeError: 'TypeError' object has no attribute 'message_dict'
+ERROR 17129 2020-04-05 20:22:58,808 log File name: [log.py] Function name: [log_response] Line No: [228] Internal Server Error: /api/event/
+Traceback (most recent call last):
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/sovan/git/CalenderService/calenderapp/views.py", line 30, in create
+    serializer.is_valid(raise_exception=True)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/serializers.py", line 234, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/serializers.py", line 433, in run_validation
+    value = self.to_internal_value(data)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/serializers.py", line 490, in to_internal_value
+    validated_value = field.run_validation(primitive_value)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/fields.py", line 565, in run_validation
+    value = self.to_internal_value(data)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/fields.py", line 1686, in to_internal_value
+    return self.run_child_validation(data)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/fields.py", line 1700, in run_child_validation
+    result.append(self.child.run_validation(item))
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/relations.py", line 153, in run_validation
+    return super().run_validation(data)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/fields.py", line 565, in run_validation
+    value = self.to_internal_value(data)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/relations.py", line 254, in to_internal_value
+    data = self.pk_field.to_internal_value(data)
+AttributeError: 'str' object has no attribute 'to_internal_value'
+WARNING 17421 2020-04-05 20:27:14,292 log File name: [log.py] Function name: [log_response] Line No: [228] Bad Request: /api/event/
+WARNING 18961 2020-04-05 20:37:41,895 log File name: [log.py] Function name: [log_response] Line No: [228] Bad Request: /api/event/
+WARNING 18961 2020-04-05 20:38:01,780 log File name: [log.py] Function name: [log_response] Line No: [228] Bad Request: /api/event/
+WARNING 18961 2020-04-05 20:38:29,348 log File name: [log.py] Function name: [log_response] Line No: [228] Bad Request: /api/event/
+WARNING 18961 2020-04-05 20:39:15,029 log File name: [log.py] Function name: [log_response] Line No: [228] Bad Request: /api/event/
+WARNING 19410 2020-04-05 20:40:21,205 log File name: [log.py] Function name: [log_response] Line No: [228] Bad Request: /api/event/
+WARNING 19410 2020-04-05 20:40:45,627 log File name: [log.py] Function name: [log_response] Line No: [228] Bad Request: /api/event/
+WARNING 19410 2020-04-05 20:41:48,792 log File name: [log.py] Function name: [log_response] Line No: [228] Bad Request: /api/event/
+WARNING 20011 2020-04-05 20:46:46,749 log File name: [log.py] Function name: [log_response] Line No: [228] Bad Request: /api/event/
+WARNING 20011 2020-04-05 20:47:11,946 log File name: [log.py] Function name: [log_response] Line No: [228] Bad Request: /api/event/
+WARNING 20527 2020-04-05 20:50:43,064 log File name: [log.py] Function name: [log_response] Line No: [228] Bad Request: /api/event/
+WARNING 29241 2020-04-05 22:06:24,340 log File name: [log.py] Function name: [log_response] Line No: [228] Bad Request: /api/event/
+WARNING 29241 2020-04-05 22:06:30,575 log File name: [log.py] Function name: [log_response] Line No: [228] Bad Request: /api/event/
+ERROR 29241 2020-04-05 22:06:36,291 log File name: [log.py] Function name: [log_response] Line No: [228] Internal Server Error: /api/event/
+Traceback (most recent call last):
+  File "/home/sovan/git/CalenderService/calenderapp/views.py", line 34, in create
+    data.get('guest_users'), request.user.id)
+  File "/home/sovan/git/CalenderService/calenderapp/models.py", line 67, in create_event
+    guest_user_ids = set(guest_user_ids)
+TypeError: 'NoneType' object is not iterable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/sovan/git/CalenderService/calenderapp/views.py", line 39, in create
+    return Response(e.message_dict, status=status.HTTP_200_OK)
+AttributeError: 'TypeError' object has no attribute 'message_dict'
+ERROR 29383 2020-04-05 22:08:24,478 log File name: [log.py] Function name: [log_response] Line No: [228] Internal Server Error: /api/event/18/
+Traceback (most recent call last):
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/sovan/git/CalenderService/calenderapp/views.py", line 46, in update
+    self.perform_update(serializer)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/mixins.py", line 78, in perform_update
+    serializer.save()
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/serializers.py", line 207, in save
+    self.instance = self.update(self.instance, validated_data)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/serializers.py", line 992, in update
+    instance.save()
+  File "/home/sovan/git/CalenderService/calenderapp/models.py", line 25, in save
+    self.full_clean()
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/db/models/base.py", line 1203, in full_clean
+    raise ValidationError(errors)
+django.core.exceptions.ValidationError: {'err_message': ['Event can not be booked for past datetime : 2020-04-01 19:00:00+05:30']}
+ERROR 30054 2020-04-05 22:13:42,717 log File name: [log.py] Function name: [log_response] Line No: [228] Internal Server Error: /api/event/18/
+Traceback (most recent call last):
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/sovan/git/CalenderService/calenderapp/views.py", line 46, in update
+    self.perform_update(serializer)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/mixins.py", line 78, in perform_update
+    serializer.save()
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/serializers.py", line 207, in save
+    self.instance = self.update(self.instance, validated_data)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/serializers.py", line 992, in update
+    instance.save()
+  File "/home/sovan/git/CalenderService/calenderapp/models.py", line 25, in save
+    self.full_clean()
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/db/models/base.py", line 1203, in full_clean
+    raise ValidationError(errors)
+django.core.exceptions.ValidationError: {'err_message': ['Event can not be booked for past datetime : 2020-04-01 19:00:00+05:30']}
+ERROR 30054 2020-04-05 22:16:12,864 log File name: [log.py] Function name: [log_response] Line No: [228] Internal Server Error: /api/event/18/
+Traceback (most recent call last):
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/sovan/git/CalenderService/calenderapp/views.py", line 46, in update
+    self.perform_update(serializer)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/mixins.py", line 78, in perform_update
+    serializer.save()
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/serializers.py", line 207, in save
+    self.instance = self.update(self.instance, validated_data)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/serializers.py", line 992, in update
+    instance.save()
+  File "/home/sovan/git/CalenderService/calenderapp/models.py", line 25, in save
+    self.full_clean()
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/db/models/base.py", line 1203, in full_clean
+    raise ValidationError(errors)
+django.core.exceptions.ValidationError: {'err_message': ['Event can not be booked for past datetime : 2020-04-01 19:00:00+05:30']}
+ERROR 10270 2020-04-06 00:16:33,166 log File name: [log.py] Function name: [log_response] Line No: [228] Internal Server Error: /api/event/18/
+Traceback (most recent call last):
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/mixins.py", line 82, in partial_update
+    return self.update(request, *args, **kwargs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/mixins.py", line 68, in update
+    self.perform_update(serializer)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/mixins.py", line 78, in perform_update
+    serializer.save()
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/serializers.py", line 207, in save
+    self.instance = self.update(self.instance, validated_data)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/serializers.py", line 992, in update
+    instance.save()
+  File "/home/sovan/git/CalenderService/calenderapp/models.py", line 25, in save
+    self.full_clean()
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/db/models/base.py", line 1203, in full_clean
+    raise ValidationError(errors)
+django.core.exceptions.ValidationError: {'err_message': ['Event can not be booked for past datetime : 2020-04-01 13:30:00+00:00']}
+WARNING 11077 2020-04-06 00:22:45,920 log File name: [log.py] Function name: [log_response] Line No: [228] Bad Request: /api/event/18/
+ERROR 11077 2020-04-06 00:27:27,808 log File name: [log.py] Function name: [log_response] Line No: [228] Internal Server Error: /api/event/18/
+Traceback (most recent call last):
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/fields.py", line 454, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/fields.py", line 92, in get_attribute
+    instance = instance[attr]
+KeyError: 'title'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/mixins.py", line 82, in partial_update
+    return self.update(request, *args, **kwargs)
+  File "/home/sovan/git/CalenderService/calenderapp/views.py", line 46, in update
+    data = serializer.data
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/serializers.py", line 562, in data
+    ret = super().data
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/serializers.py", line 262, in data
+    self._data = self.to_representation(self.validated_data)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/serializers.py", line 516, in to_representation
+    attribute = field.get_attribute(instance)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/fields.py", line 487, in get_attribute
+    raise type(exc)(msg)
+KeyError: "Got KeyError when attempting to get a value for field `title` on serializer `EventUpdateSerializer`.\nThe serializer field might be named incorrectly and not match any attribute or key on the `OrderedDict` instance.\nOriginal exception text was: 'title'."
+ERROR 11077 2020-04-06 00:29:24,032 log File name: [log.py] Function name: [log_response] Line No: [228] Internal Server Error: /api/event/18/
+Traceback (most recent call last):
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/fields.py", line 454, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/fields.py", line 92, in get_attribute
+    instance = instance[attr]
+KeyError: 'title'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/mixins.py", line 82, in partial_update
+    return self.update(request, *args, **kwargs)
+  File "/home/sovan/git/CalenderService/calenderapp/views.py", line 46, in update
+    data = serializer.data
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/serializers.py", line 562, in data
+    ret = super().data
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/serializers.py", line 262, in data
+    self._data = self.to_representation(self.validated_data)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/serializers.py", line 516, in to_representation
+    attribute = field.get_attribute(instance)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/fields.py", line 487, in get_attribute
+    raise type(exc)(msg)
+KeyError: "Got KeyError when attempting to get a value for field `title` on serializer `EventUpdateSerializer`.\nThe serializer field might be named incorrectly and not match any attribute or key on the `OrderedDict` instance.\nOriginal exception text was: 'title'."
+ERROR 12205 2020-04-06 00:33:37,990 log File name: [log.py] Function name: [log_response] Line No: [228] Internal Server Error: /api/event/18/
+Traceback (most recent call last):
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/fields.py", line 454, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/fields.py", line 92, in get_attribute
+    instance = instance[attr]
+KeyError: 'title'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/mixins.py", line 82, in partial_update
+    return self.update(request, *args, **kwargs)
+  File "/home/sovan/git/CalenderService/calenderapp/views.py", line 47, in update
+    data = serializer.data
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/serializers.py", line 562, in data
+    ret = super().data
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/serializers.py", line 262, in data
+    self._data = self.to_representation(self.validated_data)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/serializers.py", line 516, in to_representation
+    attribute = field.get_attribute(instance)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/fields.py", line 487, in get_attribute
+    raise type(exc)(msg)
+KeyError: "Got KeyError when attempting to get a value for field `title` on serializer `EventUpdateSerializer`.\nThe serializer field might be named incorrectly and not match any attribute or key on the `OrderedDict` instance.\nOriginal exception text was: 'title'."
+ERROR 12355 2020-04-06 00:34:11,211 log File name: [log.py] Function name: [log_response] Line No: [228] Internal Server Error: /api/event/18/
+Traceback (most recent call last):
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/mixins.py", line 82, in partial_update
+    return self.update(request, *args, **kwargs)
+  File "/home/sovan/git/CalenderService/calenderapp/views.py", line 47, in update
+    data = serializer.data
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/serializers.py", line 562, in data
+    ret = super().data
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/serializers.py", line 260, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/serializers.py", line 529, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/fields.py", line 1692, in to_representation
+    return [self.child.to_representation(item) if item is not None else None for item in data]
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/fields.py", line 1692, in <listcomp>
+    return [self.child.to_representation(item) if item is not None else None for item in data]
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/relations.py", line 460, in to_representation
+    return getattr(obj, self.slug_field)
+AttributeError: 'str' object has no attribute 'email'
+ERROR 12478 2020-04-06 00:35:34,002 log File name: [log.py] Function name: [log_response] Line No: [228] Internal Server Error: /api/event/18/
+Traceback (most recent call last):
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/mixins.py", line 82, in partial_update
+    return self.update(request, *args, **kwargs)
+  File "/home/sovan/git/CalenderService/calenderapp/views.py", line 47, in update
+    data = serializer.data
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/serializers.py", line 562, in data
+    ret = super().data
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/serializers.py", line 260, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/serializers.py", line 529, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/fields.py", line 1692, in to_representation
+    return [self.child.to_representation(item) if item is not None else None for item in data]
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/fields.py", line 1692, in <listcomp>
+    return [self.child.to_representation(item) if item is not None else None for item in data]
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/relations.py", line 460, in to_representation
+    return getattr(obj, self.slug_field)
+AttributeError: 'EventUser' object has no attribute 'email'
+ERROR 13836 2020-04-06 00:48:53,398 log File name: [log.py] Function name: [log_response] Line No: [228] Internal Server Error: /api/event/18/
+Traceback (most recent call last):
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/fields.py", line 454, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/fields.py", line 94, in get_attribute
+    instance = getattr(instance, attr)
+AttributeError: 'Event' object has no attribute 'participants'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/mixins.py", line 82, in partial_update
+    return self.update(request, *args, **kwargs)
+  File "/home/sovan/git/CalenderService/calenderapp/views.py", line 47, in update
+    data = serializer.data
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/serializers.py", line 562, in data
+    ret = super().data
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/serializers.py", line 260, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/serializers.py", line 516, in to_representation
+    attribute = field.get_attribute(instance)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/fields.py", line 487, in get_attribute
+    raise type(exc)(msg)
+AttributeError: Got AttributeError when attempting to get a value for field `participants` on serializer `EventUpdateSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `Event` instance.
+Original exception text was: 'Event' object has no attribute 'participants'.
+WARNING 21232 2020-04-06 02:09:59,808 log File name: [log.py] Function name: [log_response] Line No: [228] Bad Request: /api/event/
+ERROR 21333 2020-04-06 02:10:51,592 log File name: [log.py] Function name: [log_response] Line No: [228] Internal Server Error: /api/event/
+Traceback (most recent call last):
+  File "/home/sovan/git/CalenderService/calenderapp/views.py", line 34, in create
+    data.get('participants'), request.user.id)
+  File "/home/sovan/git/CalenderService/calenderapp/models.py", line 74, in create_event
+    event_id=event.id) if user != organiser_id else EventUser.objects.create(
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/db/models/query.py", line 422, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/home/sovan/git/CalenderService/calenderapp/models.py", line 25, in save
+    self.full_clean()
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/db/models/base.py", line 1188, in full_clean
+    self.clean()
+  File "/home/sovan/git/CalenderService/calenderapp/models.py", line 62, in clean
+    if Event.objects.filter(time_slot=self.event.time_slot, users__user__id=self.user_id).exists():
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/db/models/query.py", line 892, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/db/models/query.py", line 910, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/db/models/sql/query.py", line 1290, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/db/models/sql/query.py", line 1318, in _add_q
+    split_subq=split_subq, simple_col=simple_col,
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/db/models/sql/query.py", line 1251, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/db/models/sql/query.py", line 1116, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/db/models/lookups.py", line 20, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/db/models/lookups.py", line 70, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/db/models/fields/__init__.py", line 972, in get_prep_value
+    return int(value)
+ValueError: invalid literal for int() with base 10: 'arka@sourav.com'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/sovan/git/CalenderService/calenderapp/views.py", line 39, in create
+    return Response(e.message_dict, status=status.HTTP_200_OK)
+AttributeError: 'ValueError' object has no attribute 'message_dict'
+ERROR 22045 2020-04-06 02:19:14,773 log File name: [log.py] Function name: [log_response] Line No: [228] Internal Server Error: /api/event/18/
+Traceback (most recent call last):
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/mixins.py", line 82, in partial_update
+    return self.update(request, *args, **kwargs)
+  File "/home/sovan/git/CalenderService/calenderapp/views.py", line 47, in update
+    update_event(instance, serializer.validated_data)
+  File "/home/sovan/git/CalenderService/calenderapp/models.py", line 80, in update_event
+    instance.title = validated_data["tile"]
+KeyError: 'tile'
+WARNING 27810 2020-04-06 03:18:11,661 log File name: [log.py] Function name: [log_response] Line No: [228] Bad Request: /api/event/18/
+ERROR 1068 2020-04-06 04:11:56,031 log File name: [log.py] Function name: [log_response] Line No: [228] Internal Server Error: /api/event/18/
+Traceback (most recent call last):
+  File "/home/sovan/git/CalenderService/calenderapp/views.py", line 48, in update
+    event = update_event(instance, serializer.validated_data)
+  File "/home/sovan/git/CalenderService/calenderapp/models.py", line 90, in update_event
+    if timezone(settings.TIME_ZONE).localize(parse(validated_data['time_slot'])) != instance.time_slot:
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/dateutil/parser/_parser.py", line 1374, in parse
+    return DEFAULTPARSER.parse(timestr, **kwargs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/dateutil/parser/_parser.py", line 646, in parse
+    res, skipped_tokens = self._parse(timestr, **kwargs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/dateutil/parser/_parser.py", line 725, in _parse
+    l = _timelex.split(timestr)         # Splits the timestr into tokens
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/dateutil/parser/_parser.py", line 207, in split
+    return list(cls(s))
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/dateutil/parser/_parser.py", line 76, in __init__
+    '{itype}'.format(itype=instream.__class__.__name__))
+TypeError: Parser must be a string or character stream, not datetime
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/sovan/git/CalenderService/calenderapp/views.py", line 51, in update
+    return Response(e.message_dict, status=status.HTTP_200_OK)
+AttributeError: 'TypeError' object has no attribute 'message_dict'
+ERROR 2371 2020-04-06 04:21:40,182 log File name: [log.py] Function name: [log_response] Line No: [228] Internal Server Error: /api/event/18/
+Traceback (most recent call last):
+  File "/home/sovan/git/CalenderService/calenderapp/views.py", line 48, in update
+    event = update_event(instance, serializer.validated_data)
+  File "/home/sovan/git/CalenderService/calenderapp/models.py", line 81, in update_event
+    instance.description = validated_data["description"]
+KeyError: 'description'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/mixins.py", line 82, in partial_update
+    return self.update(request, *args, **kwargs)
+  File "/home/sovan/git/CalenderService/calenderapp/views.py", line 55, in update
+    return Response(e.message_dict, status=status.HTTP_200_OK)
+AttributeError: 'KeyError' object has no attribute 'message_dict'
+ERROR 2371 2020-04-06 04:23:25,564 log File name: [log.py] Function name: [log_response] Line No: [228] Internal Server Error: /api/event/18/
+Traceback (most recent call last):
+  File "/home/sovan/git/CalenderService/calenderapp/views.py", line 48, in update
+    event = update_event(instance, serializer.validated_data)
+  File "/home/sovan/git/CalenderService/calenderapp/models.py", line 81, in update_event
+    instance.description = validated_data["description"]
+KeyError: 'description'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/mixins.py", line 82, in partial_update
+    return self.update(request, *args, **kwargs)
+  File "/home/sovan/git/CalenderService/calenderapp/views.py", line 55, in update
+    return Response(e.message_dict, status=status.HTTP_200_OK)
+AttributeError: 'KeyError' object has no attribute 'message_dict'
+ERROR 2897 2020-04-06 04:23:45,705 log File name: [log.py] Function name: [log_response] Line No: [228] Internal Server Error: /api/event/18/
+Traceback (most recent call last):
+  File "/home/sovan/git/CalenderService/calenderapp/views.py", line 48, in update
+    event = update_event(instance, serializer.validated_data)
+  File "/home/sovan/git/CalenderService/calenderapp/models.py", line 81, in update_event
+    instance.description = validated_data["description"]
+KeyError: 'description'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/mixins.py", line 82, in partial_update
+    return self.update(request, *args, **kwargs)
+  File "/home/sovan/git/CalenderService/calenderapp/views.py", line 55, in update
+    return Response(e.message_dict, status=status.HTTP_200_OK)
+AttributeError: 'KeyError' object has no attribute 'message_dict'
+ERROR 3118 2020-04-06 04:25:06,707 log File name: [log.py] Function name: [log_response] Line No: [228] Internal Server Error: /api/event/18/
+Traceback (most recent call last):
+  File "/home/sovan/git/CalenderService/calenderapp/views.py", line 48, in update
+    event = update_event(instance, serializer.validated_data)
+  File "/home/sovan/git/CalenderService/calenderapp/models.py", line 84, in update_event
+    validated_users = set([user.id for user in validated_data.get("participants")])
+TypeError: 'NoneType' object is not iterable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/mixins.py", line 82, in partial_update
+    return self.update(request, *args, **kwargs)
+  File "/home/sovan/git/CalenderService/calenderapp/views.py", line 55, in update
+    return Response(e.message_dict, status=status.HTTP_200_OK)
+AttributeError: 'TypeError' object has no attribute 'message_dict'
+WARNING 3118 2020-04-06 04:26:20,869 log File name: [log.py] Function name: [log_response] Line No: [228] Bad Request: /api/event/18/
+ERROR 4482 2020-04-06 04:40:53,266 log File name: [log.py] Function name: [log_response] Line No: [228] Internal Server Error: /api/event/18/
+Traceback (most recent call last):
+  File "/home/sovan/git/CalenderService/calenderapp/views.py", line 48, in update
+    event = update_event(instance, serializer.validated_data)
+  File "/home/sovan/git/CalenderService/calenderapp/models.py", line 97, in update_event
+    if validated_data['time_slot'] != instance.time_slot:
+KeyError: 'time_slot'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/mixins.py", line 82, in partial_update
+    return self.update(request, *args, **kwargs)
+  File "/home/sovan/git/CalenderService/calenderapp/views.py", line 55, in update
+    return Response(e.message_dict, status=status.HTTP_200_OK)
+AttributeError: 'KeyError' object has no attribute 'message_dict'
+WARNING 4914 2020-04-06 04:47:54,458 log File name: [log.py] Function name: [log_response] Line No: [228] Bad Request: /api/event/18/
+WARNING 5339 2020-04-06 04:49:50,651 log File name: [log.py] Function name: [log_response] Line No: [228] Not Found: /api/event/18/
+WARNING 5339 2020-04-06 04:49:56,472 log File name: [log.py] Function name: [log_response] Line No: [228] Not Found: /api/event/18/
+WARNING 5339 2020-04-06 04:50:09,138 log File name: [log.py] Function name: [log_response] Line No: [228] Not Found: /api/event/18/
+WARNING 5339 2020-04-06 04:50:16,872 log File name: [log.py] Function name: [log_response] Line No: [228] Not Found: /api/event/18/
+WARNING 5339 2020-04-06 04:50:40,739 log File name: [log.py] Function name: [log_response] Line No: [228] Not Found: /api/event/18/
+WARNING 5339 2020-04-06 04:51:51,651 log File name: [log.py] Function name: [log_response] Line No: [228] Not Found: /api/event/18/
+WARNING 24583 2020-04-06 13:48:39,604 log File name: [log.py] Function name: [log_response] Line No: [228] Unauthorized: /api/user/
+ERROR 24583 2020-04-06 13:48:58,498 log File name: [log.py] Function name: [log_response] Line No: [228] Internal Server Error: /api/user/login/
+Traceback (most recent call last):
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/sovan/git/CalenderService/calenderapp/views.py", line 69, in login
+    if request.user.is_authenticated():
+TypeError: 'bool' object is not callable
+ERROR 24583 2020-04-06 13:49:38,611 log File name: [log.py] Function name: [log_response] Line No: [228] Internal Server Error: /api/user/login/
+Traceback (most recent call last):
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/sovan/git/CalenderService/calenderapp/views.py", line 69, in login
+    if request.user.is_authenticated():
+TypeError: 'bool' object is not callable
+WARNING 24872 2020-04-06 13:50:02,932 log File name: [log.py] Function name: [log_response] Line No: [228] Unauthorized: /api/user/login/
+WARNING 25077 2020-04-06 13:51:52,038 log File name: [log.py] Function name: [log_response] Line No: [228] Unauthorized: /api/user/login/
+WARNING 25077 2020-04-06 13:52:15,063 log File name: [log.py] Function name: [log_response] Line No: [228] Unauthorized: /api/user/login/
+WARNING 25698 2020-04-06 13:57:10,042 log File name: [log.py] Function name: [log_response] Line No: [228] Bad Request: /api/user/login/
+WARNING 25698 2020-04-06 13:57:37,752 log File name: [log.py] Function name: [log_response] Line No: [228] Unauthorized: /api/user/login/
+WARNING 25698 2020-04-06 13:58:02,080 log File name: [log.py] Function name: [log_response] Line No: [228] Unauthorized: /api/user/login/
+WARNING 26029 2020-04-06 14:00:00,089 log File name: [log.py] Function name: [log_response] Line No: [228] Method Not Allowed: /api/user/get_detail/
+WARNING 26062 2020-04-06 14:00:13,398 log File name: [log.py] Function name: [log_response] Line No: [228] Unauthorized: /api/user/get_detail/
+WARNING 26062 2020-04-06 14:00:23,794 log File name: [log.py] Function name: [log_response] Line No: [228] Method Not Allowed: /api/user/login/
+WARNING 26062 2020-04-06 14:00:29,046 log File name: [log.py] Function name: [log_response] Line No: [228] Unauthorized: /api/user/login/
+WARNING 26062 2020-04-06 14:00:35,059 log File name: [log.py] Function name: [log_response] Line No: [228] Unauthorized: /api/user/
+WARNING 26062 2020-04-06 14:00:39,207 log File name: [log.py] Function name: [log_response] Line No: [228] Unauthorized: /api/user/login/
+WARNING 26062 2020-04-06 14:01:08,018 log File name: [log.py] Function name: [log_response] Line No: [228] Method Not Allowed: /api/user/sign_up/
+WARNING 26062 2020-04-06 14:01:14,907 log File name: [log.py] Function name: [log_response] Line No: [228] Bad Request: /api/user/sign_up/
+ERROR 26062 2020-04-06 14:01:57,396 log File name: [log.py] Function name: [log_response] Line No: [228] Internal Server Error: /api/user/sign_up/
+Traceback (most recent call last):
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/sovan/git/CalenderService/calenderapp/views.py", line 103, in sign_up
+    user_serializer.save()
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/serializers.py", line 212, in save
+    self.instance = self.create(validated_data)
+  File "/home/sovan/git/CalenderService/calenderapp/serializers.py", line 74, in create
+    user.set_password(validated_data['password'])
+KeyError: 'password'
+WARNING 26062 2020-04-06 14:02:27,204 log File name: [log.py] Function name: [log_response] Line No: [228] Bad Request: /api/user/sign_up/
+WARNING 26409 2020-04-06 14:03:16,414 log File name: [log.py] Function name: [log_response] Line No: [228] Bad Request: /api/user/sign_up/
+WARNING 26409 2020-04-06 14:03:31,935 log File name: [log.py] Function name: [log_response] Line No: [228] Bad Request: /api/user/sign_up/
+WARNING 26409 2020-04-06 14:03:34,351 log File name: [log.py] Function name: [log_response] Line No: [228] Bad Request: /api/user/sign_up/
+WARNING 26409 2020-04-06 14:04:36,158 log File name: [log.py] Function name: [log_response] Line No: [228] Bad Request: /api/user/sign_up/
+ERROR 26409 2020-04-06 14:04:56,960 log File name: [log.py] Function name: [log_response] Line No: [228] Internal Server Error: /api/user/login/
+Traceback (most recent call last):
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/sovan/git/CalenderService/calenderapp/views.py", line 95, in login
+    "auth_token": user.auth_token.key
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/db/models/fields/related_descriptors.py", line 415, in __get__
+    self.related.get_accessor_name()
+django.contrib.auth.models.User.auth_token.RelatedObjectDoesNotExist: User has no auth_token.
+WARNING 26972 2020-04-06 14:08:22,046 log File name: [log.py] Function name: [log_response] Line No: [228] Unauthorized: /api/user/signup/
+WARNING 26972 2020-04-06 14:08:31,907 log File name: [log.py] Function name: [log_response] Line No: [228] Unauthorized: /api/user/signup/
+WARNING 26972 2020-04-06 14:08:33,140 log File name: [log.py] Function name: [log_response] Line No: [228] Unauthorized: /api/user/signup/
+WARNING 26972 2020-04-06 14:09:02,423 log File name: [log.py] Function name: [log_response] Line No: [228] Unauthorized: /api/user/fds/
+WARNING 26972 2020-04-06 14:09:33,517 log File name: [log.py] Function name: [log_response] Line No: [228] Bad Request: /api/user/sign_up/
+WARNING 26972 2020-04-06 14:11:11,343 log File name: [log.py] Function name: [log_response] Line No: [228] Method Not Allowed: /api/user/login/
+WARNING 26972 2020-04-06 14:12:19,545 log File name: [log.py] Function name: [log_response] Line No: [228] Forbidden: /api/user/get_detail/
+WARNING 26972 2020-04-06 14:14:21,838 log File name: [log.py] Function name: [log_response] Line No: [228] Method Not Allowed: /api/user/logout/
+WARNING 26972 2020-04-06 14:14:26,817 log File name: [log.py] Function name: [log_response] Line No: [228] Forbidden: /api/user/logout/
+WARNING 26972 2020-04-06 14:20:19,635 log File name: [log.py] Function name: [log_response] Line No: [228] Forbidden: /api/user/logout/
+ERROR 4035 2020-04-07 03:33:40,515 exception File name: [exception.py] Function name: [response_for_exception] Line No: [77] Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+WARNING 4035 2020-04-07 03:33:40,628 log File name: [log.py] Function name: [log_response] Line No: [228] Bad Request: /admin/
+WARNING 4035 2020-04-07 03:33:46,659 log File name: [log.py] Function name: [log_response] Line No: [228] Not Found: /
+WARNING 4035 2020-04-07 03:33:47,077 log File name: [log.py] Function name: [log_response] Line No: [228] Not Found: /favicon.ico
+WARNING 4035 2020-04-07 03:33:53,473 log File name: [log.py] Function name: [log_response] Line No: [228] Not Found: /
+WARNING 4035 2020-04-07 03:40:15,992 log File name: [log.py] Function name: [log_response] Line No: [228] Unauthorized: /api/
+WARNING 4035 2020-04-07 03:45:38,975 log File name: [log.py] Function name: [log_response] Line No: [228] Not Found: /favicon.ico
+WARNING 4035 2020-04-07 03:45:44,495 log File name: [log.py] Function name: [log_response] Line No: [228] Not Found: /
+WARNING 6009 2020-04-07 03:47:39,450 log File name: [log.py] Function name: [log_response] Line No: [228] Not Found: /
+WARNING 6009 2020-04-07 03:47:48,491 log File name: [log.py] Function name: [log_response] Line No: [228] Not Found: /
+WARNING 6399 2020-04-07 03:50:10,173 log File name: [log.py] Function name: [log_response] Line No: [228] Not Found: /
+WARNING 6399 2020-04-07 03:50:21,688 log File name: [log.py] Function name: [log_response] Line No: [228] Not Found: /
+WARNING 6399 2020-04-07 03:50:34,042 log File name: [log.py] Function name: [log_response] Line No: [228] Not Found: /
+WARNING 6533 2020-04-07 03:50:55,159 log File name: [log.py] Function name: [log_response] Line No: [228] Unauthorized: /api/
+WARNING 6533 2020-04-07 03:50:58,725 log File name: [log.py] Function name: [log_response] Line No: [228] Unauthorized: /api/
+WARNING 7451 2020-04-07 04:01:02,407 log File name: [log.py] Function name: [log_response] Line No: [228] Not Found: /api/user/logiut/
+WARNING 7451 2020-04-07 04:05:52,853 log File name: [log.py] Function name: [log_response] Line No: [228] Unauthorized: /api/event/
+WARNING 7451 2020-04-07 04:05:57,714 log File name: [log.py] Function name: [log_response] Line No: [228] Unauthorized: /api/user/
+WARNING 7451 2020-04-07 04:06:23,608 log File name: [log.py] Function name: [log_response] Line No: [228] Not Found: /favicon.ico
+WARNING 7451 2020-04-07 04:08:15,555 log File name: [log.py] Function name: [log_response] Line No: [228] Unauthorized: /api/user/
+WARNING 7451 2020-04-07 04:08:38,025 log File name: [log.py] Function name: [log_response] Line No: [228] Unauthorized: /api/user/
+WARNING 7451 2020-04-07 04:08:39,316 log File name: [log.py] Function name: [log_response] Line No: [228] Unauthorized: /api/user/
+ERROR 11830 2020-04-07 04:36:52,161 log File name: [log.py] Function name: [log_response] Line No: [228] Internal Server Error: /api/event/
+Traceback (most recent call last):
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/sovan/git/CalenderService/calenderapp/views.py", line 44, in create
+    serializer.is_valid(raise_exception=True)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/serializers.py", line 234, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/serializers.py", line 433, in run_validation
+    value = self.to_internal_value(data)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/serializers.py", line 490, in to_internal_value
+    validated_value = field.run_validation(primitive_value)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/fields.py", line 566, in run_validation
+    self.run_validators(value)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/fields.py", line 590, in run_validators
+    validator(value)
+  File "/home/sovan/git/CalenderService/calenderapp/serializers.py", line 46, in time_slot_validator
+    time_slot = parse(time_slot)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/dateutil/parser/_parser.py", line 1374, in parse
+    return DEFAULTPARSER.parse(timestr, **kwargs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/dateutil/parser/_parser.py", line 646, in parse
+    res, skipped_tokens = self._parse(timestr, **kwargs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/dateutil/parser/_parser.py", line 725, in _parse
+    l = _timelex.split(timestr)         # Splits the timestr into tokens
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/dateutil/parser/_parser.py", line 207, in split
+    return list(cls(s))
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/dateutil/parser/_parser.py", line 76, in __init__
+    '{itype}'.format(itype=instream.__class__.__name__))
+TypeError: Parser must be a string or character stream, not datetime
+ERROR 12008 2020-04-07 04:38:01,764 log File name: [log.py] Function name: [log_response] Line No: [228] Internal Server Error: /api/event/
+Traceback (most recent call last):
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/sovan/git/CalenderService/calenderapp/views.py", line 44, in create
+    serializer.is_valid(raise_exception=True)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/serializers.py", line 234, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/serializers.py", line 433, in run_validation
+    value = self.to_internal_value(data)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/serializers.py", line 490, in to_internal_value
+    validated_value = field.run_validation(primitive_value)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/fields.py", line 566, in run_validation
+    self.run_validators(value)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/fields.py", line 590, in run_validators
+    validator(value)
+  File "/home/sovan/git/CalenderService/calenderapp/serializers.py", line 46, in time_slot_validator
+    time_slot = parse(time_slot)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/dateutil/parser/_parser.py", line 1374, in parse
+    return DEFAULTPARSER.parse(timestr, **kwargs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/dateutil/parser/_parser.py", line 646, in parse
+    res, skipped_tokens = self._parse(timestr, **kwargs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/dateutil/parser/_parser.py", line 725, in _parse
+    l = _timelex.split(timestr)         # Splits the timestr into tokens
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/dateutil/parser/_parser.py", line 207, in split
+    return list(cls(s))
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/dateutil/parser/_parser.py", line 76, in __init__
+    '{itype}'.format(itype=instream.__class__.__name__))
+TypeError: Parser must be a string or character stream, not datetime
+WARNING 12158 2020-04-07 04:38:19,739 log File name: [log.py] Function name: [log_response] Line No: [228] Bad Request: /api/event/
+WARNING 12158 2020-04-07 04:38:43,461 log File name: [log.py] Function name: [log_response] Line No: [228] Bad Request: /api/event/
+ERROR 12158 2020-04-07 04:42:06,814 log File name: [log.py] Function name: [log_response] Line No: [228] Internal Server Error: /api/event/37
+Traceback (most recent call last):
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/utils/deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/middleware/common.py", line 53, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/middleware/common.py", line 93, in get_full_path_with_slash
+    'url': request.get_host() + new_path,
+RuntimeError: You called this URL via PATCH, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining PATCH data. Change your form to point to 127.0.0.1:8000/api/event/37/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+WARNING 12158 2020-04-07 04:43:16,757 log File name: [log.py] Function name: [log_response] Line No: [228] Not Found: /api/event/37/
+WARNING 12158 2020-04-07 04:43:28,882 log File name: [log.py] Function name: [log_response] Line No: [228] Not Found: /api/event/37/
+WARNING 12158 2020-04-07 04:43:46,858 log File name: [log.py] Function name: [log_response] Line No: [228] Method Not Allowed: /api/event/37/
+WARNING 12158 2020-04-07 04:44:08,083 log File name: [log.py] Function name: [log_response] Line No: [228] Bad Request: /api/event/
+WARNING 12158 2020-04-07 04:44:18,820 log File name: [log.py] Function name: [log_response] Line No: [228] Method Not Allowed: /api/event/
+WARNING 12158 2020-04-07 04:44:37,974 log File name: [log.py] Function name: [log_response] Line No: [228] Bad Request: /api/event/39/
+WARNING 23298 2020-04-07 15:30:16,242 log File name: [log.py] Function name: [log_response] Line No: [228] Method Not Allowed: /api/user/block_slots/
+WARNING 23298 2020-04-07 15:30:22,213 log File name: [log.py] Function name: [log_response] Line No: [228] Bad Request: /api/user/block_slots/
+WARNING 23936 2020-04-07 15:31:05,418 log File name: [log.py] Function name: [log_response] Line No: [228] Bad Request: /api/user/block_slots/
+WARNING 23936 2020-04-07 15:31:33,366 log File name: [log.py] Function name: [log_response] Line No: [228] Bad Request: /api/user/block_slots/
+ERROR 23936 2020-04-07 15:31:52,471 log File name: [log.py] Function name: [log_response] Line No: [228] Internal Server Error: /api/user/block_slots/
+Traceback (most recent call last):
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/sovan/git/CalenderService/calenderapp/views.py", line 132, in block_slots
+    serializer.save()
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/serializers.py", line 212, in save
+    self.instance = self.create(validated_data)
+  File "/home/sovan/git/CalenderService/calenderapp/serializers.py", line 110, in create
+    obj, created = User.objects.update_or_create(user_id=validated_data["user_id"], date=validated_data["date"],
+KeyError: 'user_id'
+ERROR 24203 2020-04-07 15:33:18,190 log File name: [log.py] Function name: [log_response] Line No: [228] Internal Server Error: /api/user/block_slots/
+Traceback (most recent call last):
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/sovan/git/CalenderService/calenderapp/views.py", line 132, in block_slots
+    serializer.save()
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/serializers.py", line 212, in save
+    self.instance = self.create(validated_data)
+  File "/home/sovan/git/CalenderService/calenderapp/serializers.py", line 110, in create
+    obj, created = User.objects.update_or_create(user_id=validated_data["user_id"], date=validated_data["date"],
+KeyError: 'user_id'
+ERROR 24324 2020-04-07 15:33:39,721 log File name: [log.py] Function name: [log_response] Line No: [228] Internal Server Error: /api/user/block_slots/
+Traceback (most recent call last):
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/sovan/git/CalenderService/calenderapp/views.py", line 132, in block_slots
+    serializer.save()
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/serializers.py", line 212, in save
+    self.instance = self.create(validated_data)
+  File "/home/sovan/git/CalenderService/calenderapp/serializers.py", line 111, in create
+    defaults={'blocked_slots': validated_data["blocked_slots"]})
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/db/models/query.py", line 554, in update_or_create
+    obj = self.select_for_update().get(**kwargs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/db/models/query.py", line 399, in get
+    clone = self.filter(*args, **kwargs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/db/models/query.py", line 892, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/db/models/query.py", line 910, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/db/models/sql/query.py", line 1290, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/db/models/sql/query.py", line 1318, in _add_q
+    split_subq=split_subq, simple_col=simple_col,
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/db/models/sql/query.py", line 1190, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/db/models/sql/query.py", line 1049, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/db/models/sql/query.py", line 1420, in names_to_path
+    "Choices are: %s" % (name, ", ".join(available)))
+django.core.exceptions.FieldError: Cannot resolve keyword 'date' into field. Choices are: auth_token, date_joined, email, eventuser, first_name, groups, id, is_active, is_staff, is_superuser, last_login, last_name, logentry, password, user_permissions, useravailability, username
+ERROR 24444 2020-04-07 15:34:23,852 log File name: [log.py] Function name: [log_response] Line No: [228] Internal Server Error: /api/user/block_slots/
+Traceback (most recent call last):
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.UndefinedTable: relation "calenderapp_useravailability" does not exist
+LINE 1: ...alenderapp_useravailability"."blocked_slots" FROM "calendera...
+                                                             ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/sovan/git/CalenderService/calenderapp/views.py", line 132, in block_slots
+    serializer.save()
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/serializers.py", line 212, in save
+    self.instance = self.create(validated_data)
+  File "/home/sovan/git/CalenderService/calenderapp/serializers.py", line 113, in create
+    'blocked_slots': validated_data["blocked_slots"]})
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/db/models/query.py", line 554, in update_or_create
+    obj = self.select_for_update().get(**kwargs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/db/models/query.py", line 402, in get
+    num = len(clone)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/db/models/query.py", line 256, in __len__
+    self._fetch_all()
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/db/models/query.py", line 1242, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/db/models/query.py", line 55, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/db/models/sql/compiler.py", line 1133, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/db/backends/utils.py", line 99, in execute
+    return super().execute(sql, params)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/db/backends/utils.py", line 76, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/db/utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.ProgrammingError: relation "calenderapp_useravailability" does not exist
+LINE 1: ...alenderapp_useravailability"."blocked_slots" FROM "calendera...
+                                                             ^
+
+WARNING 24696 2020-04-07 15:36:14,891 log File name: [log.py] Function name: [log_response] Line No: [228] Bad Request: /api/user/block_slots/
+WARNING 24696 2020-04-07 15:36:54,581 log File name: [log.py] Function name: [log_response] Line No: [228] Method Not Allowed: /api/user/get_available_slots/
+ERROR 25163 2020-04-07 15:39:58,464 log File name: [log.py] Function name: [log_response] Line No: [228] Internal Server Error: /api/user/get_available_slots/
+Traceback (most recent call last):
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/sovan/git/CalenderService/calenderapp/views.py", line 139, in get_available_slots
+    data["user"] = request.user.email
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/http/request.py", line 459, in __setitem__
+    self._assert_mutable()
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/http/request.py", line 456, in _assert_mutable
+    raise AttributeError("This QueryDict instance is immutable")
+AttributeError: This QueryDict instance is immutable
+ERROR 25983 2020-04-07 15:46:15,157 log File name: [log.py] Function name: [log_response] Line No: [228] Internal Server Error: /api/user/get_available_slots/
+Traceback (most recent call last):
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/sovan/git/CalenderService/calenderapp/views.py", line 139, in get_available_slots
+    data["user"] = request.user.email
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/http/request.py", line 459, in __setitem__
+    self._assert_mutable()
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/http/request.py", line 456, in _assert_mutable
+    raise AttributeError("This QueryDict instance is immutable")
+AttributeError: This QueryDict instance is immutable
+WARNING 26083 2020-04-07 15:46:57,617 log File name: [log.py] Function name: [log_response] Line No: [228] Bad Request: /api/user/get_available_slots/
+WARNING 26083 2020-04-07 15:47:15,906 log File name: [log.py] Function name: [log_response] Line No: [228] Bad Request: /api/user/get_available_slots/
+WARNING 26083 2020-04-07 15:47:16,993 log File name: [log.py] Function name: [log_response] Line No: [228] Bad Request: /api/user/get_available_slots/
+WARNING 26396 2020-04-07 15:49:25,026 log File name: [log.py] Function name: [log_response] Line No: [228] Bad Request: /api/user/get_available_slots/
+WARNING 28604 2020-04-07 16:09:14,765 log File name: [log.py] Function name: [log_response] Line No: [228] Unauthorized: /api/event/
+WARNING 28604 2020-04-07 16:09:46,242 log File name: [log.py] Function name: [log_response] Line No: [228] Not Found: /favicon.ico
+WARNING 28604 2020-04-07 16:10:11,987 log File name: [log.py] Function name: [log_response] Line No: [228] Bad Request: /api/event/
+ERROR 31195 2020-04-07 16:34:59,282 log File name: [log.py] Function name: [log_response] Line No: [228] Internal Server Error: /api/event/
+Traceback (most recent call last):
+  File "/home/sovan/git/CalenderService/calenderapp/views.py", line 49, in create
+    data.get('participants'), request.user.id)
+  File "/home/sovan/git/CalenderService/calenderapp/models.py", line 99, in create_event
+    user_id=user, event_id=event.id, is_organiser=True)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/db/models/query.py", line 422, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/home/sovan/git/CalenderService/calenderapp/models.py", line 34, in save
+    self.full_clean()
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/db/models/base.py", line 1188, in full_clean
+    self.clean()
+  File "/home/sovan/git/CalenderService/calenderapp/models.py", line 80, in clean
+    date=naive_time_slot.date).first()
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/db/models/query.py", line 892, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/db/models/query.py", line 910, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/db/models/sql/query.py", line 1290, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/db/models/sql/query.py", line 1318, in _add_q
+    split_subq=split_subq, simple_col=simple_col,
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/db/models/sql/query.py", line 1251, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/db/models/sql/query.py", line 1116, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/db/models/lookups.py", line 20, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/db/models/lookups.py", line 70, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/db/models/fields/__init__.py", line 1274, in get_prep_value
+    return self.to_python(value)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/db/models/fields/__init__.py", line 1236, in to_python
+    parsed = parse_date(value)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/utils/dateparse.py", line 74, in parse_date
+    match = date_re.match(value)
+TypeError: expected string or bytes-like object
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/sovan/git/CalenderService/calenderapp/views.py", line 54, in create
+    return Response(e.message_dict, status=status.HTTP_200_OK)
+AttributeError: 'TypeError' object has no attribute 'message_dict'
+ERROR 31265 2020-04-07 16:35:43,864 log File name: [log.py] Function name: [log_response] Line No: [228] Internal Server Error: /api/event/
+Traceback (most recent call last):
+  File "/home/sovan/git/CalenderService/calenderapp/views.py", line 49, in create
+    data.get('participants'), request.user.id)
+  File "/home/sovan/git/CalenderService/calenderapp/models.py", line 99, in create_event
+    user_id=user, event_id=event.id, is_organiser=True)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/db/models/query.py", line 422, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/home/sovan/git/CalenderService/calenderapp/models.py", line 34, in save
+    self.full_clean()
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/db/models/base.py", line 1188, in full_clean
+    self.clean()
+  File "/home/sovan/git/CalenderService/calenderapp/models.py", line 80, in clean
+    date=naive_time_slot.date).first()
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/db/models/query.py", line 892, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/db/models/query.py", line 910, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/db/models/sql/query.py", line 1290, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/db/models/sql/query.py", line 1318, in _add_q
+    split_subq=split_subq, simple_col=simple_col,
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/db/models/sql/query.py", line 1251, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/db/models/sql/query.py", line 1116, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/db/models/lookups.py", line 20, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/db/models/lookups.py", line 70, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/db/models/fields/__init__.py", line 1274, in get_prep_value
+    return self.to_python(value)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/db/models/fields/__init__.py", line 1236, in to_python
+    parsed = parse_date(value)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/utils/dateparse.py", line 74, in parse_date
+    match = date_re.match(value)
+TypeError: expected string or bytes-like object
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/sovan/git/CalenderService/calenderapp/views.py", line 54, in create
+    return Response(e.message_dict, status=status.HTTP_200_OK)
+AttributeError: 'TypeError' object has no attribute 'message_dict'
+WARNING 31490 2020-04-07 16:38:16,113 log File name: [log.py] Function name: [log_response] Line No: [228] Bad Request: /api/user/block_slots/
+ERROR 6123 2020-04-07 17:37:15,974 log File name: [log.py] Function name: [log_response] Line No: [228] Internal Server Error: /api/user/block_slots/
+Traceback (most recent call last):
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/sovan/git/CalenderService/calenderapp/views.py", line 132, in block_slots
+    serializer.save()
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/serializers.py", line 212, in save
+    self.instance = self.create(validated_data)
+  File "/home/sovan/git/CalenderService/calenderapp/serializers.py", line 116, in create
+    obj.save()
+AttributeError: 'NoneType' object has no attribute 'save'
+WARNING 6463 2020-04-07 17:39:14,917 log File name: [log.py] Function name: [log_response] Line No: [228] Bad Request: /api/user/block_slots/
+WARNING 9026 2020-04-07 22:20:44,868 log File name: [log.py] Function name: [log_response] Line No: [228] Not Found: /favicon.ico
+WARNING 9026 2020-04-07 22:26:38,904 log File name: [log.py] Function name: [log_response] Line No: [228] Not Found: /favicon.ico
+WARNING 11782 2020-04-07 22:33:07,772 log File name: [log.py] Function name: [log_response] Line No: [228] Not Found: /static/admin/css/base.ae33e6383baa.css
+WARNING 11782 2020-04-07 22:33:07,774 log File name: [log.py] Function name: [log_response] Line No: [228] Not Found: /static/admin/css/dashboard.7ac78187c567.css
+WARNING 11782 2020-04-07 22:33:07,776 log File name: [log.py] Function name: [log_response] Line No: [228] Not Found: /static/admin/css/responsive.3a465780d49f.css
+WARNING 11782 2020-04-07 22:34:07,103 log File name: [log.py] Function name: [log_response] Line No: [228] Not Found: /static/admin/css/base.ae33e6383baa.css
+WARNING 11782 2020-04-07 22:34:07,105 log File name: [log.py] Function name: [log_response] Line No: [228] Not Found: /static/admin/css/dashboard.7ac78187c567.css
+WARNING 11782 2020-04-07 22:34:07,106 log File name: [log.py] Function name: [log_response] Line No: [228] Not Found: /static/admin/css/responsive.3a465780d49f.css
+WARNING 11782 2020-04-07 22:34:16,557 log File name: [log.py] Function name: [log_response] Line No: [228] Not Found: /static/admin/css/base.ae33e6383baa.css
+WARNING 11782 2020-04-07 22:34:16,563 log File name: [log.py] Function name: [log_response] Line No: [228] Not Found: /static/admin/css/changelists.f6dc691f8d62.css
+WARNING 11782 2020-04-07 22:34:16,565 log File name: [log.py] Function name: [log_response] Line No: [228] Not Found: /static/admin/js/vendor/jquery/jquery.min.9c86871c4213.js
+WARNING 11782 2020-04-07 22:34:16,567 log File name: [log.py] Function name: [log_response] Line No: [228] Not Found: /static/admin/js/jquery.init.95b62fa19378.js
+WARNING 11782 2020-04-07 22:34:16,570 log File name: [log.py] Function name: [log_response] Line No: [228] Not Found: /static/admin/js/core.a004ed25a257.js
+WARNING 11782 2020-04-07 22:34:16,572 log File name: [log.py] Function name: [log_response] Line No: [228] Not Found: /static/admin/css/responsive.3a465780d49f.css
+WARNING 11782 2020-04-07 22:34:16,573 log File name: [log.py] Function name: [log_response] Line No: [228] Not Found: /static/admin/js/admin/RelatedObjectLookups.ea0683bea064.js
+WARNING 11782 2020-04-07 22:34:16,581 log File name: [log.py] Function name: [log_response] Line No: [228] Not Found: /static/admin/js/actions.min.5fa8cb0403f1.js
+WARNING 11782 2020-04-07 22:34:16,582 log File name: [log.py] Function name: [log_response] Line No: [228] Not Found: /static/admin/js/vendor/xregexp/xregexp.min.c95393b8ca4d.js
+WARNING 11782 2020-04-07 22:34:16,583 log File name: [log.py] Function name: [log_response] Line No: [228] Not Found: /static/admin/js/urlify.67bae52223e0.js
+WARNING 11782 2020-04-07 22:34:16,585 log File name: [log.py] Function name: [log_response] Line No: [228] Not Found: /static/admin/js/prepopulate.min.85fd5e0fb706.js
+WARNING 11782 2020-04-07 22:34:16,586 log File name: [log.py] Function name: [log_response] Line No: [228] Not Found: /static/admin/img/search.7cf54ff789c6.svg
+WARNING 11782 2020-04-07 22:34:16,597 log File name: [log.py] Function name: [log_response] Line No: [228] Not Found: /static/admin/img/icon-no.439e821418cd.svg
+WARNING 11782 2020-04-07 22:34:16,691 log File name: [log.py] Function name: [log_response] Line No: [228] Not Found: /static/admin/img/icon-yes.d2f9f035226a.svg
+WARNING 11782 2020-04-07 22:34:16,693 log File name: [log.py] Function name: [log_response] Line No: [228] Not Found: /static/admin/js/vendor/jquery/jquery.min.9c86871c4213.js
+WARNING 11782 2020-04-07 22:34:16,699 log File name: [log.py] Function name: [log_response] Line No: [228] Not Found: /static/admin/js/jquery.init.95b62fa19378.js
+WARNING 11782 2020-04-07 22:34:16,703 log File name: [log.py] Function name: [log_response] Line No: [228] Not Found: /static/admin/js/core.a004ed25a257.js
+WARNING 11782 2020-04-07 22:34:16,751 log File name: [log.py] Function name: [log_response] Line No: [228] Not Found: /static/admin/js/admin/RelatedObjectLookups.ea0683bea064.js
+WARNING 11782 2020-04-07 22:34:16,755 log File name: [log.py] Function name: [log_response] Line No: [228] Not Found: /static/admin/js/actions.min.5fa8cb0403f1.js
+WARNING 11782 2020-04-07 22:34:16,770 log File name: [log.py] Function name: [log_response] Line No: [228] Not Found: /static/admin/js/urlify.67bae52223e0.js
+WARNING 11782 2020-04-07 22:34:16,815 log File name: [log.py] Function name: [log_response] Line No: [228] Not Found: /static/admin/js/prepopulate.min.85fd5e0fb706.js
+WARNING 11782 2020-04-07 22:34:16,820 log File name: [log.py] Function name: [log_response] Line No: [228] Not Found: /static/admin/js/vendor/xregexp/xregexp.min.c95393b8ca4d.js
+WARNING 11782 2020-04-07 22:34:16,824 log File name: [log.py] Function name: [log_response] Line No: [228] Not Found: /static/admin/css/responsive.3a465780d49f.css
+WARNING 11782 2020-04-07 22:34:16,829 log File name: [log.py] Function name: [log_response] Line No: [228] Not Found: /static/admin/img/icon-no.439e821418cd.svg
+WARNING 11782 2020-04-07 22:34:16,830 log File name: [log.py] Function name: [log_response] Line No: [228] Not Found: /static/admin/img/icon-yes.d2f9f035226a.svg
+WARNING 10258 2020-04-08 00:29:16,663 log File name: [log.py] Function name: [log_response] Line No: [228] Unauthorized: /api/event/
+WARNING 10258 2020-04-08 00:29:31,592 log File name: [log.py] Function name: [log_response] Line No: [228] Not Found: /static/admin/css/base.ae33e6383baa.css
+WARNING 10258 2020-04-08 00:29:31,594 log File name: [log.py] Function name: [log_response] Line No: [228] Not Found: /static/admin/css/responsive.3a465780d49f.css
+WARNING 10258 2020-04-08 00:29:31,595 log File name: [log.py] Function name: [log_response] Line No: [228] Not Found: /static/admin/css/dashboard.7ac78187c567.css
+WARNING 10258 2020-04-08 00:29:31,977 log File name: [log.py] Function name: [log_response] Line No: [228] Not Found: /favicon.ico
+WARNING 10458 2020-04-08 00:34:17,470 log File name: [log.py] Function name: [log_response] Line No: [228] Method Not Allowed: /api/user/block_slot/
+WARNING 10458 2020-04-08 00:34:34,686 log File name: [log.py] Function name: [log_response] Line No: [228] Bad Request: /api/user/block_slots/
+WARNING 12967 2020-04-08 01:00:00,660 log File name: [log.py] Function name: [log_response] Line No: [228] Unauthorized: /api/event/
+WARNING 18946 2020-04-08 01:50:48,961 log File name: [log.py] Function name: [log_response] Line No: [228] Not Found: /api/event/user/get_available_slots/
+WARNING 21574 2020-04-08 02:14:44,318 log File name: [log.py] Function name: [log_response] Line No: [228] Method Not Allowed: /api/event/39/
+WARNING 21574 2020-04-08 02:15:45,700 log File name: [log.py] Function name: [log_response] Line No: [228] Not Found: /api/event/user/
+ERROR 22848 2020-04-08 02:25:23,307 log File name: [log.py] Function name: [log_response] Line No: [228] Internal Server Error: /api/user/get_available_slots/
+Traceback (most recent call last):
+  File "/home/sovan/git/CalenderService/calenderapp/views.py", line 147, in get_available_slots
+    obj = UserAvailability.objects.get(user_id=user.id, date=serializer.validated_data["date"])
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/db/models/query.py", line 408, in get
+    self.model._meta.object_name
+calenderapp.models.UserAvailability.DoesNotExist: UserAvailability matching query does not exist.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/sovan/git/CalenderService/calenderapp/views.py", line 151, in get_available_slots
+    return Response(UserAvailabilitySerializer(obj).data)
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/serializers.py", line 562, in data
+    ret = super().data
+  File "/home/sovan/git/cal_venv/lib/python3.6/site-packages/rest_framework/serializers.py", line 260, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/sovan/git/CalenderService/calenderapp/serializers.py", line 114, in to_representation
+    return super(UserAvailabilitySerializer, self).to_representation(self, instance)
+TypeError: to_representation() takes 2 positional arguments but 3 were given
