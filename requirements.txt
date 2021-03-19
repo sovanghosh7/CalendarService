@@ -11,7 +11,7 @@ django-import-export==2.0.2
 django-model-utils==4.0.0
 django-multiselectfield==0.1.12
 django-shell-plus==1.1.7
-djangorestframework==3.11.0
+djangorestframework==3.11.2
 djangorestframework-filters==0.11.1
 et-xmlfile==1.0.1
 gunicorn==20.0.4
